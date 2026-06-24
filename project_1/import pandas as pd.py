@@ -4,7 +4,7 @@ import seaborn as sns
 import numpy as np
 
 # Загрузка данных
-churn_data = pd.read_csv(r'C:\Users\Denis\Documents\datasi\7\churn.csv')
+churn_data = pd.read_csv('https://raw.githubusercontent.com/denk76/sf_data_science/refs/heads/main/project_1/churn.csv')
 
 # Удаляем лишний столбец
 churn_data.drop('RowNumber', axis=1, inplace=True)
